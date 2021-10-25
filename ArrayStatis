@@ -1,0 +1,15 @@
+public class arraystatis {
+    public static void main (String[] args) {
+        String mahasiswa [] = new String [5];
+        //menginput elemen pada data mahasiswa
+        mahasiswa[0] = "Gilang Ramadhan";
+        mahasiswa[1] = "Jupriadi Akbar";
+        mahasiswa[2] = "Nada Tsawaabul Khair";
+        mahasiswa[3] = "Wiwit Atika";
+
+        //membuat output
+        for (int i = 0; i < mahasiswa.length; i++){
+            System.out.println("Urutan Nama Mahasiswa ke-" + (i + 1) + " adalah " + mahasiswa[i] );
+        }
+    }
+}
